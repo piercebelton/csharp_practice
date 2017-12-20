@@ -8,20 +8,27 @@ namespace csharp_practice
         public static void Main(string[] args)
         {
             // WorkingWithStringArrays();
+            // FibonacciNumbers();
+            var account = new BankAccount("Pierce", 8000000);
+            Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
+        }
+
+        public static void FibonacciNumbers()
+        {
             List<int> fibonacciNumbers = new List<int> { 1, 1 };
 
 
-            while(fibonacciNumbers.Count < 20)
+            while (fibonacciNumbers.Count < 20)
             {
-				int previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
-				int previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
-				fibonacciNumbers.Add(previous + previous2);            
+                int previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+                int previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+                fibonacciNumbers.Add(previous + previous2);
             }
 
             foreach (var item in fibonacciNumbers)
             {
                 Console.WriteLine(item);
-            }
+            }  
         }
 
         public static void WorkingWithStringArrays()
