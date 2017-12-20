@@ -1,0 +1,5 @@
+/Users/piercebelton/Projects/csharp_practice/csharp_practice/bin/Debug/csharp_practice.exe
+/Users/piercebelton/Projects/csharp_practice/csharp_practice/bin/Debug/csharp_practice.pdb
+/Users/piercebelton/Projects/csharp_practice/csharp_practice/obj/x86/Debug/csharp_practice.csproj.CoreCompileInputs.cache
+/Users/piercebelton/Projects/csharp_practice/csharp_practice/obj/x86/Debug/csharp_practice.exe
+/Users/piercebelton/Projects/csharp_practice/csharp_practice/obj/x86/Debug/csharp_practice.pdb
